@@ -1,0 +1,30 @@
+# Created at 2021-05-05T15:45:11.138
+Picked up JAVA_TOOL_OPTIONS: -agentlib:jvmhook
+
+# Created at 2021-05-05T15:45:11.139
+Picked up _JAVA_OPTIONS: -Xrunjvmhook -Xbootclasspath/a:"C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin\java_shared\classes\jasmine.jar"
+
+# Created at 2021-05-05T15:45:11.991
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+# Created at 2021-05-05T15:45:11.992
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+# Created at 2021-05-05T15:45:11.993
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+# Created at 2021-05-05T15:45:19.923
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2021-05-05T15:45:19.924
+WARNING: Illegal reflective access by org.apache.poi.openxml4j.util.ZipSecureFile$1 (file:/C:/Users/awangueu/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar) to field java.io.FilterInputStream.in
+
+# Created at 2021-05-05T15:45:19.925
+WARNING: Please consider reporting this to the maintainers of org.apache.poi.openxml4j.util.ZipSecureFile$1
+
+# Created at 2021-05-05T15:45:19.925
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2021-05-05T15:45:19.926
+WARNING: All illegal access operations will be denied in a future release
+

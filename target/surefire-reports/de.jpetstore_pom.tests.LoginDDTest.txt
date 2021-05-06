@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: de.jpetstore_pom.tests.LoginDDTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.271 s - in de.jpetstore_pom.tests.LoginDDTest

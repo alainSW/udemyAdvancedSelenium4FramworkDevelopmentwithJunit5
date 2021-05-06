@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: de.jpetstore_pom.tests.RegistrationParameterizedTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 62.433 s <<< FAILURE! - in de.jpetstore_pom.tests.RegistrationParameterizedTest
+addNewUserToStoreAndVerifyLogin{String, String, String, String, String, String, String, String, String, String, String, String, String}[1]  Time elapsed: 33.004 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'FCU-NBK500', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: unknown
+	at de.jpetstore_pom.tests.RegistrationParameterizedTest.addNewUserToStoreAndVerifyLogin(RegistrationParameterizedTest.java:41)
+
+addNewUserToStoreAndVerifyLogin{String, String, String, String, String, String, String, String, String, String, String, String, String}[2]  Time elapsed: 24.185 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Failed to convert data to an object
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'FCU-NBK500', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 35872, moz:profile: C:\Users\awangueu\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 30a28eec-12d1-4cfa-889f-ad8...}
+Session ID: 30a28eec-12d1-4cfa-889f-ad8734482953
+*** Element info: {Using=xpath, value=//*[@id='MenuContent']/a[contains(text(),'Sign In')]}
+	at de.jpetstore_pom.tests.RegistrationParameterizedTest.addNewUserToStoreAndVerifyLogin(RegistrationParameterizedTest.java:41)
+
+addNewUserToStoreAndVerifyLogin{String, String, String, String, String, String, String, String, String, String, String, String, String}[3]  Time elapsed: 0.829 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <input name="repeatedPassword" type="text"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'FCU-NBK500', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 35872, moz:profile: C:\Users\awangueu\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 30a28eec-12d1-4cfa-889f-ad8...}
+Session ID: 30a28eec-12d1-4cfa-889f-ad8734482953
+	at de.jpetstore_pom.tests.RegistrationParameterizedTest.addNewUserToStoreAndVerifyLogin(RegistrationParameterizedTest.java:31)
+
